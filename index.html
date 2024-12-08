@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="John Doe Portfolio">
+  <title>John Doe - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Ly Daneth</h1>
+      <p>Odoo & Web Developer</p>
+      <a href="#contact" class="cta-button">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a passionate Odoo and web developer. I specialize in Odoo and front-end technologies and enjoy problem-solving through code.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-carousel">
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1">
+          <h3>Project One</h3>
+          <p>A brief description of Project One.</p>
+          <a href="https://github.com/johndoe/project1" target="_blank">View Project</a>
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2">
+          <h3>Project Two</h3>
+          <p>A brief description of Project Two.</p>
+          <a href="https://github.com/johndoe/project2" target="_blank">View Project</a>
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/400x250" alt="Project 3">
+          <h3>Project Three</h3>
+          <p>A brief description of Project Three.</p>
+          <a href="https://github.com/johndoe/project3" target="_blank">View Project</a>
+        </div>
+      </div>
+      <button id="prev" class="carousel-button">Prev</button>
+      <button id="next" class="carousel-button">Next</button>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+      <p id="form-response"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Connect with me: 
+      <a href="https://github.com/johndoe" target="_blank">GitHub</a> | 
+      <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+    </p>
+    <p>&copy; 2024 John Doe</p>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top">&#8593;</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
